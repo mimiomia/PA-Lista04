@@ -8,4 +8,27 @@
 a = int(input("Digite um número: "))
 b = int(input("Digite um número: "))
 
-if 
+# Se forem iguais
+if a == b:
+  print("Os números são iguais")
+
+if a > 10:
+  b = b * 10
+  a = a / 2
+  soma = a + b
+  # Verificar se é par
+  if total % 2 == 0:
+    print("O resultado é par")
+  else:
+    print("O resultado é ímpar")
+
+else:
+  a = a * 10
+  b = b / 2
+  soma = a + b
+  # Verificar se é par
+  if total % 2 == 0:
+    print("O resultado é par")
+  else:
+    print("O resultado é ímpar")
+  
