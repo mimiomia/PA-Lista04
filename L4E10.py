@@ -11,24 +11,20 @@ b = int(input("Digite um número: "))
 # Se forem iguais
 if a == b:
   print("Os números são iguais")
-
-if a > 10:
-  b = b * 10
-  a = a / 2
-  soma = a + b
-  # Verificar se é par
-  if total % 2 == 0:
-    print("O resultado é par")
-  else:
-    print("O resultado é ímpar")
-
 else:
-  a = a * 10
-  b = b / 2
-  soma = a + b
+  if a > b:
+    maior = a
+    menor = b
+  else:
+    maior = b
+    menor = a
+
+  menor = menor * 10
+  maior = maior / 2
+  soma = menor + maior
+
   # Verificar se é par
-  if total % 2 == 0:
+  if soma % 2 == 0:
     print("O resultado é par")
   else:
     print("O resultado é ímpar")
-  
